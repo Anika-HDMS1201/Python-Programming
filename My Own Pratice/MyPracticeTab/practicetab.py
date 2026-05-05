@@ -70,6 +70,31 @@ print(s)
 t= int(678.34)
 print(t)
 
+x=int("50") #Convert:"50" into integer,100 into string,"25.5" into float
+y=str(100)
+z=float(25.5)
+print(x)
+print(y)
+print(z)
+
+#Fix the error:
+"""
+x = "10" 
+y = 5
+print(x + y)
+"""
+x = 10 #fixed
+y = 5
+print(x + y)
+
+x = "Lionel" #it will concatinate both the words side by side
+y = "Messi"
+print(x + y)
+
+
+
+
+
 
 
 
