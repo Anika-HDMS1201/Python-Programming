@@ -22,7 +22,7 @@ b=300
 c=a+b
 print(c)
 
-#1value = 10 * 1 
+#1value = 10 
 total_sales =100 #this is a valid variablename
 #my-name = 5  #this is a valid variablename
 #_name = 20
