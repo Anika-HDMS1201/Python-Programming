@@ -1,0 +1,42 @@
+1/. Task 1
+------------------
+Inside the editor, complete the following steps:
+Write a statement that prints "Hello World!"
+Write a statement that prints "Have a good day."
+Write a statement that prints "Learning Python is fun!"
+
+
+2/. Task 2
+------------------
+Inside the editor, complete the following steps:
+Print the text "I am" and the number 25 in one print statement
+
+
+3/. Task 3
+------------------
+Inside the editor, complete the following steps:
+Add a single-line comment that says This is a comment
+Comment out the line print("This should not run") so it does not execute
+Add a multiline comment (using triple quotes) that says This is
+a multiline
+comment
+
+
+4/. Task 4
+--------------------
+The Exercise
+The exercises are a mix of "multiple choice" and "fill in the blanks" questions.
+
+There are between 3 and 9 questions in each category.
+
+The answer can be found in the corresponding tutorial chapter.
+
+If you're stuck, or answer wrong, you can try again or hit the "Show Answer" button to see the correct answer.
+
+Find a complete collection of Python Exercises for each chapter in this tutorial in our Python Exercises page.
+
+Instructions
+Inside the editor, complete the following steps:
+Create a variable x and assign it the value 5
+Create a variable y and assign it the value "John"
+Use the type() function to print the type of x

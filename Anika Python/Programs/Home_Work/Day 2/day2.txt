@@ -1,0 +1,21 @@
+Inside the editor, complete the following steps:
+Create a variable x with the value 5
+Create a variable y with the value 3.14
+Create a variable z with the value "Hello"
+Print the data type of each variable using type()
+
+
+Inside the editor, complete the following steps:
+Create a variable x and assign it the integer 5
+Create a variable y and assign it the float 3.14
+Create a variable z and assign it the complex number 2+3j
+Print the type of each variable using type()
+
+
+
+
+Inside the editor, complete the following steps:
+Create a variable x with the integer value 1
+Convert x to a float and store it in a
+Convert x to a string and store it in b
+Print a and b
