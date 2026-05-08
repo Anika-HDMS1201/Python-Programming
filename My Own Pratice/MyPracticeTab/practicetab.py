@@ -91,10 +91,48 @@ x = "Lionel" #it will concatinate both the words side by side
 y = "Messi"
 print(x + y)
 
+x = "10"
+y = "5"
+print(x + y)
 
+x = "10"
+y = 10
+print(x * 2) #1010,it will print 2 10s back to back.
+print(y * 2) #20,it will just multiply.
 
+x = "Python"
+print(x)
+x = 100
+print(x) 
+print(x) #it will print the last value of x, as the first one will get overlapped by the last one.
 
+x= "Lionel Messi"
+print(x)
+x= 10
+print(x)
+print(x) #it will print the last value of x, as the first one will get overlapped by the last one.
 
+x = 10 #What will be the final value of x?
+x = 20
+x = "Messi"
+print(x) #it will print the last value of x, as the first & second one will get overlapped by the last one.
+
+price = "250" #Convert both into integers & Calculate total.
+tax = "50" 
+print(int(price))
+print(int(tax))
+print((int(price))+(int(tax)))
+
+x = float(10) #Predict the output.
+y = int(5.9)
+print(x)
+print(y)
+
+Marks=["98","71","48"]
+Nunku,NunkusDarlo,CutieBOT =Marks
+print(Nunku)
+print(NunkusDarlo)
+print(CutieBOT)
 
 
 
