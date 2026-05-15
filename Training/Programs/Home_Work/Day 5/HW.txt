@@ -1,0 +1,61 @@
+### Category 1: Variables, Syntax & Data Types
+1. Write a Python script that assigns the values "Apple", "Banana", and "Cherry" to three different variables in a single line using unpacking.
+2. Create a global variable `x = 50`. Write a function that uses the `global` keyword to change `x` to `100`, and print `x` before and after calling the function.
+3. Write a program that takes a string `"150"`, casts it to an integer, adds `50`, and then casts the result back to a float.
+4. Demonstrate how to print "Hello" and "World" on the same line, separated by a hyphen `-`, using the `end` parameter in the `print()` function.
+5. Create a variable with the complex number `5+3j`. Extract and print its data type using the `type()` function.
+6. Write a script that uses a multiline string (`"""..."""`) purely as a comment to explain the code below it.
+7. Assign the same string value `"Python"` to three variables (`a`, `b`, `c`) simultaneously using a single line of code.
+8. Use the `random` module to generate and print a random integer between 1 and 1000.
+9. Write a script that assigns a number using scientific `E` notation (e.g., representing 45,000) and prints it out as a standard float.
+10. Identify the invalid variable names in this list and explain why: `1st_name`, `_last_name`, `Total-Score`, `myVar2`.
+
+### Category 2: String Formatting & Methods
+11. Given `text = "Python Programming"`, use string slicing to extract and print only the word "Prog".
+12. Use negative slicing to completely reverse the string `word = "Chittajit"`.
+13. Take the string `sentence = "   data science is fun   "`. Chain two string methods together to remove the spaces at the ends and capitalize the first letter of each word.
+14. Use an f-string to print the sentence "The total price is $X", where X is the variable `price = 49.998`, formatted to exactly two decimal places.
+15. Use the `.replace()` method to change all instances of the letter "a" to "@" in the string "macadamia".
+16. Write a program that splits the string `csv = "apple,banana,cherry"` into a list using the comma as a separator.
+17. Check if the string `code = "7890"` consists purely of numbers using a built-in string method.
+18. Use escape characters to correctly print this exact output on two lines: 
+    Line 1: "It's a beautiful day!"
+    Line 2: \Let's code\
+19. Write a script using the `.zfill()` method to format the number `7` so it outputs as `"0007"`.
+20. Check if the word "secure" is present in `url = "https://secure.site.com"` using the `in` membership operator.
+
+### Category 3: Operators & Boolean Logic
+21. Write a script to check if a variable `num = 21` is completely divisible by both 3 and 7 using the modulus operator (`%`) and the logical `and` operator.
+22. Calculate `(10 + 5) * 2 ** 3 / 4`. Manually figure out the order of precedence and write the code to confirm the final result.
+23. Start with `x = 10`. Use shorthand assignment operators to multiply it by 5, subtract 10, and then perform floor division by 2. Print the final answer.
+24. Create two lists: `l1 = [1, 2, 3]` and `l2 = [1, 2, 3]`. Print the boolean results of `l1 == l2` and `l1 is l2`. 
+25. Perform a bitwise AND (`&`) operation on the integers 14 and 9. Print the result.
+26. Write an expression that evaluates to `True` if `x` is between 50 and 100 (inclusive) using chained comparison operators (e.g., `50 <= x...`).
+27. Use the `ord()` function to find the ASCII value of the letter 'Z'.
+28. Evaluate and print `bool(0.0)`, `bool(" ")`, and `bool(None)`. 
+29. Perform a bitwise left shift (`<<`) by 2 on the number 5 and print the result.
+30. Write an `if/else` statement using logical operators that prints "Access Granted" if `age >= 18` OR `has_permission == True`, but NOT if both are true (simulate XOR logic).
+
+### Category 4: Lists & Modification
+31. Create a list of numbers from 1 to 5. Use `.insert()` to add the number `0` to the very beginning of the list.
+32. Given `colors = ["red", "green", "blue", "yellow"]`, remove "green" by its value, and remove "yellow" using its index.
+33. Write a script that uses slicing to replace the 2nd and 3rd elements of `nums = [10, 20, 30, 40]` with the single value `99`.
+34. Create `list1 = ["apple", "banana"]` and `tuple1 = ("cherry", "mango")`. Use `.extend()` to add the tuple into the list.
+35. What happens if you run `.pop()` without an index argument on `items = ["A", "B", "C"]`? Write the code to demonstrate.
+36. Use a `while` loop to iterate through `names = ["John", "Paul", "George"]` and print each name.
+37. Write a standard `for` loop using `range()` and `len()` to print the items of a list based on their index numbers.
+38. Write a single-line List Comprehension to print all items in `fruits = ["apple", "kiwi", "melon"]`.
+39. Clear all the items from `data = [1, 2, 3]` using a list method, and print the resulting empty list.
+40. Completely delete the list variable `data` from memory using the `del` keyword.
+
+### Category 5: Applied Logic & Mixed Challenges
+41. Write a script that separates a single list of numbers `[1, -2, 3, -4, 5]` into two new lists: one for positive numbers and one for negative numbers using a `for` loop.
+42. Given a list of integers `[10, 20, 30, 40]`, write a `for` loop to calculate the sum of all elements without using the built-in `sum()` function.
+43. Write a script that takes the string `word = "racecar"`, reverses it using negative slicing, and checks if the original word and the reversed word are exactly equal (checking for a palindrome).
+44. Create a script that finds the maximum number in `numbers = [5, 17, 3, 99, 21]` using a `for` loop and an `if` statement (do not use `max()`).
+45. Use a `while` loop to simulate a countdown from 5 to 1. When the loop finishes, print "Blastoff!".
+46. Write a program that iterates through the string `text = "Mississippi"` using a loop and counts the exact number of times the letter 's' appears (do not use `.count()`).
+47. Given `scores = [85, 92, 78, 90]`, calculate the average score. Use an `if/else` block to print "A Grade" if the average is over 80, and "B Grade" if it is not.
+48. Write a script to swap the first and last elements of the list `items = ["first", "middle", "last"]` using index reassignment.
+49. Convert the string `"hello"` into a list of its characters `['h', 'e', 'l', 'l', 'o']` using the `list()` constructor, change the first letter to "j", and join it back into a string using `.join()`.
+50. Write a program that loops through the numbers 1 to 10. If the number is even, print "Even", if it is odd, print the number itself using the modulo operator (`%`).
