@@ -13,5 +13,6 @@ print(thislist[2:])
 print(thislist[-4:-1]) #-3 to -1
 
 thislist = ["apple", "banana", "cherry"]
-if "apple" in thislist:
-    print("Yes, 'apple' is in the fruits list")
+print("apple" in thislist) #it will return True as a value
+if "Apple" in thislist:  #it will return True as a condtion
+    print("Yes, 'apple' is in the fruits list") #and this statement will execute
