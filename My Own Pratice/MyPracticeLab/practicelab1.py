@@ -134,6 +134,16 @@ print(Nunku)
 print(NunkusDarlo)
 print(CutieBOT)
 
+#String Concatenation:
+#Strip function
+a= " Lionel Messi "
+print(a.strip(""))
+
+txt = "MBA Student"
+print(txt.strip())
+
+
+
 
 
 
