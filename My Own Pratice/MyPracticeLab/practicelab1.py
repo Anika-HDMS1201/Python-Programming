@@ -142,6 +142,98 @@ print(a.strip(""))
 txt = "MBA Student"
 print(txt.strip())
 
+teamT5=["Tharkulla","Romitee","Nairobi","Ganjakhor"]
+for i in range(len(teamT5)):
+    print(teamT5[i])
+
+teamT5=["Tharkulla","Romitee","Nairobi","Ganjakhor"] 
+for x in teamT5:
+    print(x)
+
+
+argentina=["Messi","Alvarez","De Paul","Fernendez","Martinez","Lautaro","Otamendi"]
+for i in range(len(argentina)):
+    print(argentina[i])
+
+#print("\n for loop single argument")
+#for i in range (10):
+    #print(i,end=" ");
+
+
+"""
+range(19)
+print(range(19))
+range(10,67)
+print(range(10,67))
+range(6,20,70)
+print(range(6,20,70))
+"""
+
+msn=["Messi","Suarez","Neymar"]
+bbc=("Benzema","Bale","Cristiano")
+msn.extend(bbc)
+print(msn)
+
+msn=["Messi","Suarez","Neymar"]
+bbc=["Benzema","Bale","Cristiano"]
+msn.append(bbc)
+print(msn)
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+msn.remove("Cristiano")
+print(msn)
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+msn.pop()
+print(msn)
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+msn.pop(5)
+print(msn)
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+msn.pop(-1)
+print(msn) #negative 
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+del msn
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+msn.clear()
+print(msn)
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+msn.insert(2,"Modric")
+print(msn)
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+msn[2]="Otamendi"
+print(msn) #*
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+msn[1:4]=["Lautaro","Otamendi"]
+print(msn)
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+msn[2:]=["Oscar"]
+print(msn) #*
+
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+msn[:4]=["Oscar"]
+print(msn) #*
+
+
+
+
+
+     
+
+
+
+
+
+
+
 
 
 
