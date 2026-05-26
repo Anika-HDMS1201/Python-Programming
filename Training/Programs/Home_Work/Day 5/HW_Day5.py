@@ -30,7 +30,8 @@ print(a,b,c)
 #Task 8
 print(random.randrange(1,1000))
 
-#Task 9
+#Task 10
+
 
 
 
