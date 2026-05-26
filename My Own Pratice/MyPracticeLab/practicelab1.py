@@ -185,22 +185,22 @@ print(msn)
 
 msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
 msn.pop()
-print(msn)
+print(msn) #positive
 
 msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
 msn.pop(5)
-print(msn)
+print(msn) #positive
 
 msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
 msn.pop(-1)
 print(msn) #negative 
 
 msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
-del msn
+del msn #*
 
 msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
 msn.clear()
-print(msn)
+print(msn) #*
 
 msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
 msn.insert(2,"Modric")
@@ -212,7 +212,7 @@ print(msn) #*
 
 msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
 msn[1:4]=["Lautaro","Otamendi"]
-print(msn)
+print(msn) #*
 
 msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
 msn[2:]=["Oscar"]
