@@ -1,0 +1,89 @@
+Inside the editor, complete the following steps:
+Create a list called colors with the values "red", "green", "blue"
+Print the first item in the list
+Change the second item to "yellow"
+Add "purple" to the end of the list using append()
+Remove "red" from the list using remove()
+Print the list
+
+Inside the editor, complete the following steps:
+Create a tuple called fruits with the values "apple", "banana", "cherry"
+Print the second item in the tuple
+Print the number of items using len()
+Unpack the tuple into three variables a, b, c
+Print the variable b
+
+
+==============================================================================================
+### **Part 1: Variables & Data Types (1–10)**
+
+1. **Multi-Assignment:** Assign the values `"Apple"`, `"Banana"`, and `"Cherry"` to three separate variables in a single line of code.
+2. **Type Casting:** Declare a float variable `price = 9.99`. Cast it to an integer and print the result. What data is lost?
+3. **Data Types:** Create a complex number variable and print only its data type using the `type()` function.
+4. **Randomization:** Import the `random` module and generate a random integer between 50 and 100.
+5. **Global Variables:** Declare a global variable `x = "Python"`. Write a function that uses the `global` keyword to change `x` to `"Flutter"`.
+6. **Boolean Logic:** Print the boolean evaluation of an empty string `""` and the number `0`.
+7. **Swapping:** Swap the values of two variables `a = 10` and `b = 20` without using a third temporary variable.
+8. **Scientific Notation:** Assign the scientific number $35 \times 10^3$ to a variable using the `e` notation and print it.
+9. **String to Int:** Cast the string `"150"` to an integer, mathematically add 50 to it, and print the result.
+10. **List Unpacking:** Unpack the list `["Tatai", "MBA", 24]` into three separate variables: `name`, `degree`, and `age`. Print them.
+
+---
+
+### **Part 2: String Manipulation & Formatting (11–20)**
+
+11. **Whitespace Cleaning:** Given `text = "   Hello World!   "`, use a string method to strip the whitespace, then chain another method to convert it to uppercase.
+12. **F-Strings:** Use an f-string to print the sentence `"My name is [name] and I am [age] years old"`, inserting variables for name and age.
+13. **Slicing:** Slice the string `word = "Programming"` to extract and print only the word `"gram"`.
+14. **Negative Slicing:** Reverse the string `word = "Python"` entirely using string slicing.
+15. **Replacement:** Replace all occurrences of the letter `"a"` with `"@"` in the string `"data analysis"`.
+16. **Splitting:** Split the string `"apple,banana,cherry"` into a Python list of individual words.
+17. **Finding Index:** Find and print the index of the first occurrence of the letter `"j"` in the string `"Chittajit"`.
+18. **Membership:** Write an `if` statement to check if the word `"free"` is present in the string `"The best things in life are free!"`.
+19. **Joining:** Concatenate a list of strings `["Hello", "World"]` with a space in between, using the `.join()` method instead of the `+` operator.
+20. **Escape Characters:** Write a single string that outputs `"Line 1"` and `"Line 2"` on separate lines using the newline escape character.
+
+---
+
+### **Part 3: Operators & Logic (21–30)**
+
+21. **Precedence:** Calculate `24 + 34 / 2 * 5 + 2 * 6` in a script. Verify that Python follows standard operator precedence.
+22. **Modulus:** Use the modulus operator (`%`) to write a condition that checks if the number 25 is even or odd.
+23. **Floor Division:** Perform floor division (`//`) on 100 by 3 and print the integer result.
+24. **Assignment Operators:** Use the shorthand assignment operator to multiply an existing variable `x = 5` by 4.
+25. **Identity Operators:** Create `a = [1, 2, 3]` and `b = [1, 2, 3]`. Print the result of `a == b` and `a is b`.
+26. **Logical AND:** Write a logical condition that checks if a number `n` is greater than 10 `and` less than 20.
+27. **Bitwise Logic:** Perform a bitwise AND (`&`) on the numbers 5 and 3. Print the integer result.
+28. **Membership Operator:** Use the `not in` operator to verify that `"mango"` is missing from the list `["apple", "banana"]`.
+29. **Exponentiation:** Calculate 2 to the power of 8 using the exponentiation operator (``).
+30. **Chained Comparison:** Chain comparison operators to check if the number 10 is strictly between 5 and 15 (`5 < 10 < 15`).
+
+---
+
+### **Part 4: Lists & Comprehensions (31–40)**
+
+31. **Appending:** Create a list of 5 fruits. Use `.append()` to add `"kiwi"` to the end.
+32. **Inserting:** Using the same fruit list, use `.insert()` to place `"mango"` exactly at the second index (index 1).
+33. **Popping:** Remove the last item from a list using `.pop()` and assign that removed item to a new variable.
+34. **Clearing:** Clear all elements from a list named `temp_list` without deleting the list object itself from memory.
+35. **Memory Management:** Correctly copy a list `list_a` to `list_b` using the `.copy()` method so that modifying `list_b` does not alter `list_a`.
+36. **Sorting:** Sort the list `[100, 50, 65, 82, 23]` in descending (reverse) order.
+37. **List Comprehension (Basic):** Use list comprehension in a single line to create a list of numbers from 0 to 9.
+38. **List Comprehension (Filtered):** Use list comprehension to extract only the strings containing the letter `"e"` from `["apple", "banana", "cherry"]`.
+39. **Extending:** Merge `list1 = [1, 2]` with `list2 = [3, 4]` using the `.extend()` method.
+40. **Range Replacement:** Replace the values at index 1 and 2 of a list with a single new value using list slicing (e.g., `thislist[1:3] = ["watermelon"]`).
+
+---
+
+### **Part 5: Tuples & Loops (41–50)**
+
+41. **Single Item Tuple:** Create a tuple containing only the word `"Python"`. (Hint: do not forget the comma).
+42. **Advanced Unpacking:** Unpack the tuple `(10, 20, 30, 40, 50)` using the asterisk `*` operator to capture the first item in a variable, and the remaining items in a list.
+43. **For Loop:** Write a `for` loop to print numbers from 1 to 10, utilizing `range(1, 11)`.
+44. **While Loop:** Write a `while` loop with a starting index of 5 that counts down to 1, decrementing by 1 each iteration.
+45. **Tuple Mutation:** Convert a tuple `t = (1, 2, 3)` to a list, change the first value to 99, and convert it back to a tuple.
+46. **Index Iteration:** Iterate through a list of names using `for i in range(len(names)):` and print each name alongside its numerical index.
+47. **Tuple Concatenation:** Mathematically concatenate two tuples `(1, 2)` and `(3, 4)` using the `+` operator.
+48. **Loop Control:** Write a loop to iterate through a list of words. Print each word, but use a `break` statement to stop the loop entirely if it encounters the word `"stop"`.
+49. **Tuple Methods:** Use the `.count()` method to find out how many times the number 5 appears in the tuple `(1, 5, 2, 5, 3, 5)`.
+50. **In-Place Modification:** Write a `for` loop that iterates over a list of numbers using their index (`range(len(lst))`) and multiplies each element directly in the actual list by 2.
