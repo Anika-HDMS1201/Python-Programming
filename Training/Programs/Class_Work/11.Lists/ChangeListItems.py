@@ -20,3 +20,4 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.insert(2, "watermelon")#this function is used to inset a value in a particual index
 print(thislist)
+

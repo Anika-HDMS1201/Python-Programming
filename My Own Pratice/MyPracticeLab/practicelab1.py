@@ -222,6 +222,45 @@ msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
 msn[:4]=["Oscar"]
 print(msn) #*
 
+msn=["Messi","Suarez","Neymar","Benzema","Bale","Cristiano"]
+print(msn[-1:-3])
+
+msn=["Messi","Suarez","Neymar"]
+for i in range(len(msn)):
+    print(msn[i],end=" ") 
+
+print( )
+
+msn=["Messi","Suarez","Neymar"]
+for i in msn:
+    print(i,end="|")
+
+print( )
+
+argentina=["Messi","Alvarez","De Paul","Fernendez","Martinez","Lautaro","Otamendi"]
+cond= [x for x in argentina if "M" in x]
+print(cond)
+
+argentina=["Messi","Alvarez","De Paul","Fernendez","Martinez","Lautaro","Otamendi"]
+cond=[x for x in argentina if x!="Messi"]
+print(cond)
+
+#numbers=(12,13,24,56,76,34,87,90)
+print("for loop single argument")
+for i in range(8):
+    print(i,end=" ")
+
+print("for loop dual argument")
+for i in range (4,8):
+    print(i,end=" ")
+
+print("for loop triple argument") #*
+for i in range (2,11,3):
+    print(i,end=" ")
+
+
+
+
 
 
 

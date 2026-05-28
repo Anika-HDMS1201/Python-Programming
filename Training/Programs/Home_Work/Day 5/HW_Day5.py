@@ -125,6 +125,63 @@ print(colors)
 colors.pop(2)
 print(colors)
 
+#Task 33
+nums=[10, 20, 30, 40]
+nums[2:4]=["99","99"]
+print(nums)
+
+#Task 34
+list1 =["apple", "banana"]
+tuple1 =("cherry", "mango")
+list1.extend(tuple1)
+print(list1)
+
+#Task 35
+items = ["A", "B", "C"]
+items.pop()
+print(items) #it removes the last element inside the list.
+
+#Task 36 (***)
+names = ["John", "Paul", "George"]
+i=0
+while i<len(names):
+    print(names[i])
+    i=i+1
+    print(i,end="-")
+
+print( )
+
+#Task 37 (*)
+teamt5= ["Romitee","Nairobi","Tharkulla"]
+for i in range(len(teamt5)):
+    print(teamt5[i])
+
+#Task 38 #(*)
+fruits = ["apple", "kiwi", "melon"]
+newlist=[x for x in fruits]
+print(newlist)
+
+#Task 39
+data = [1, 2, 3]
+data.clear()
+print(data)
+
+#Task 40 #(*)
+data = [1, 2, 3]
+del data
+
+
+
+
+
+
+
+
+
+
+    
+
+
 
 
 
