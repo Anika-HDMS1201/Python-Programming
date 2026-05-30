@@ -122,6 +122,113 @@ b = [1, 2, 3]
 print(a==b)
 print(a is b)
 
+#Task 26 (***)
+n= 23
+print(n<20 & n>10)
+
+#Task 27
+x=(5 & 3)
+print(int(x))
+
+#Task 28
+fruits= ["apple", "banana"]
+print("mango" not in fruits)
+
+#Task 29
+b= 2**8
+print(b)
+
+#Task 30
+x= 15
+print(5<x<15)
+
+#PART 4
+#Task 31
+fruits= ["Pineapple","Dragon fruits","lichhi","grapes","Orange"]
+fruits.append("Kiwi")
+print(fruits)
+
+#Task 32
+fruits= ["Pineapple","Dragon fruits","lichhi","grapes","Orange"]
+fruits.insert(1,"Mango")
+print(fruits)
+
+#Task 33
+fruits= ["Pineapple","Dragon fruits","lichhi","grapes","Orange"]
+x=fruits.pop()
+print(x)
+
+#Task 34(*)
+temp_list= ["Pineapple","Dragon fruits","lichhi","grapes","Orange"]
+n=temp_list.clear()   
+print(n)
+
+#Task 35
+list_a=["Anika","Kriti","Anjali"]
+list_b=list_a.copy()
+print(list_b)
+#list_a=["Anika","Kriti","Anjali"]
+#list_b=list_a
+#print(list_b)
+
+#Task 36
+numb=[100, 50, 65, 82, 23]
+numb.sort()
+print(numb)
+
+#Task 38
+fruits=["apple", "banana", "cherry"]
+new=[x for x in fruits if "e" in x]
+print(new)
+
+#Task 39
+list1 = [1, 2]
+list2 = [3, 4]
+list1.extend(list2)
+print(list1)
+
+#Task 40
+fruits=["Pineapple","Dragon fruits","lichhi","grapes","Orange"]
+fruits[1:2]=["Kiwi"]
+print(fruits)
+
+#Part 5
+#Task 41
+program=("Python",)
+print(type(program))
+
+#Task 42
+#numb= (10, 20, 30, 40, 50)
+#(*10, 20, 30, 40, 50)
+
+#Task 43
+for i in range(1,11):
+    print(i,end=" ")
+
+print( )
+
+#Task 45
+t = (1, 2, 3)
+x= list(t)
+x[0:1]=[99]
+y= tuple(x)
+print(y)
+
+#Task 47
+numbs1=(1, 2)
+numbs2=(3, 4)
+numbs3= (numbs1+numbs2)
+print(numbs3)
+
+#Task 49
+numbs= (1, 5, 2, 5, 3, 5)
+print(numbs.count(5))
+
+#Task 50
+lst1= (24,67,40,32,12)
+for i in range(len(lst1)):
+   print(lst1[i]*2,end=" ")
+
 
 
 
