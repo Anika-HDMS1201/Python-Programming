@@ -1,0 +1,36 @@
+These are designed specifically for your current exact level based on the files you provided. I have excluded functions (`def`) and global variables, focusing entirely on variables, data types, strings, operators, lists, tuples, and loops.
+
+To make this a better practice experience, I have grounded these problems in real-world logic, data processing, and scenarios you might actually encounter.
+
+---
+1. **The Fuel Calculator:** You are tracking the mileage of a Yamaha FZ-S V4. Assign `distance_km = 450` and `fuel_liters = 9.5`. Calculate the kilometers per liter (Kmpl) and print it using an f-string rounded to two decimal places.
+2. **Simple Interest Precedence:** Calculate the total amount to be paid on a loan. Assign `principal = 135000`, `rate = 0.08`, and `time = 3` (years). Calculate the simple interest `(P * R * T)` and add it to the principal. Ensure you use proper operator precedence.
+3. **Data Type Cleanup:** In a script, you receive a string `user_age = "23"`. Cast this to an integer, add 5 to it, cast it back to a string, and concatenate it to the phrase: `"In five years, the age will be: "`.
+4. **Voter Verification:** You are processing a Form 6 application. Set `age = 23` and `has_id_proof = True`. Write an `if` statement using the logical `and` operator to print `"Election Card Approved"` only if the age is 18 or older and the ID proof is valid.
+5. **Bitwise Permissions:** You are designing a system where read permission is `4` and write permission is `2`. Perform a bitwise OR (`|`) on these two numbers and print the result to generate a combined "read/write" access code.
+
+6. **Challan Extraction:** You have a traffic challan ID string: `challan = "WB02-HC-2025-8849"`. Use positive and negative string slicing to extract just the year `"2025"` and the last four digits `"8849"`. Print them.
+7. **Multi-line Formal Letter:** Use a multi-line string (`"""`) to draft a short template note to Calcutta University regarding the collection of a BCOM(Gen) degree certificate. Use `.replace()` to swap out a placeholder `[NAME]` with your actual name.
+8. **Email Domain Check:** You are verifying student data for an MBA program. Given `email = "tatai@bibs.co.in"`, use the membership operator (`in`) to check if `"bibs.co.in"` is present in the string. Print the boolean result.
+9. **Stack Parsing:** You are reading a messy string from a database: `tech_stack = " Flutter, Dart , C# , Java , Python "`. Use the `.split(",")` method to turn this into a list.
+10. **Case Standardization:** Take the string `company = "mEta SCifor teChnologiEs"`. Chain string methods together to strip any accidental whitespace and convert it to title case (Title Case Means Every First Letter Is Capitalized).
+
+
+11. **Student Registration App:** Create a list `enrolled = ["Amit", "Priya", "Rahul"]`. Use list methods to:
+* Insert `"Sneha"` exactly at index 1.
+* Remove `"Rahul"`.
+* Append `"Vikram"` to the end.
+* Print the final list.
+
+
+12. **Tuple Immutability Workaround:** You have a tuple representing an interview schedule for Einetic Technologies: `schedule = ("Monday", "Round 1", "10:00 AM")`. Since tuples are immutable, write the code to change `"10:00 AM"` to `"11:30 AM"` by converting it to a list, altering the index, and converting it back to a tuple.
+13. **Tuple Unpacking:** You receive an automated IndiGo baggage claim response as a tuple: `claim_data = ("IG789", "Processed", 4500.00)`. Unpack this tuple into three clearly named variables and print a sentence summarizing the refund using an f-string.
+14. **Exam Score Sorting:** You are analyzing Class 10 ICSE math scores: `scores = [78, 92, 56, 88, 99, 45]`. Sort the list in descending order, then use list slicing to print only the top 3 scores.
+15. **Memory References:** Create a list `base_tasks = ["UI Design", "API Setup"]`. Create a strict copy of this list called `my_tasks` (do not just use the `=` operator, which copies the memory address). Append `"Unit Testing"` to `my_tasks` and print both lists to prove `base_tasks` remained unchanged.
+
+
+16. **ICSE Grading Loop:** You have a list of marks: `marks = [45, 82, 38, 91, 55]`. Write a `for` loop that iterates over this list. If the mark is below 40, print `"Fail"`; otherwise, print `"Pass"`.
+17. **In-Place List Math:** You are budgeting for a cafe trip in Behala. You have a list of base prices: `prices = [120, 45, 300, 80]`. Write a `for` loop using `range(len(prices))` to apply an 18% tax to each item directly in the list (modifying the original list values).
+18. **Password Manager Auth (While Loop):** Set `correct_pin = "1234"` and `attempts = 0`. Write a `while` loop that checks a mock `input_pin = "0000"`. Increment the `attempts` variable by 1 each loop. Stop the loop and print `"Vault Locked"` when attempts reach 3.
+19. **Data Type Scanner:** Create a mixed list: `data = [42, "Kolkata", 3.14, True]`. Loop through the list and use the `type()` function to print the data type of each element.
+20. **List Comprehension Filtering:** Given a list of numbers `range(1, 21)`, write a single-line list comprehension that generates a new list containing *only* the even numbers.
