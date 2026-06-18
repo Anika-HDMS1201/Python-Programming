@@ -1,0 +1,11 @@
+Inside the editor, complete the following steps:
+Create a variable age with the value 20
+Write an if statement that prints "Child" if age is less than 13
+Add an elif that prints "Teenager" if age is less than 18
+Add an else that prints "Adult"
+
+Inside the editor, complete the following steps:
+Create a variable day with the value 3
+Use a match statement to check the value of day
+Add a case 3 that prints "Wednesday"
+Add a wildcard case _ that prints "Other day"
