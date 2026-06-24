@@ -1,0 +1,4 @@
+Inside the editor, complete the following steps:
+Create a list called fruits with: "apple", "banana", "cherry"
+Write a for loop that prints each item in fruits
+Use break to stop the loop when the item is "banana"

@@ -42,3 +42,19 @@ match day:
     print("A weekday in May")
   case _:
     print("No match")
+#converting it into if-else statement
+if day>=1 and day<=5 and month==4:
+  print("A weekday in April")
+elif day>=1 and day<=5 and month==5:
+  print("A weekday in May")
+else:
+  print("No match")
+
+
+#another way it's acctual in match
+if (day==1 or day==2 or day==3 or day==4 or day==5) and month==4:
+  print("A weekday in April")
+elif (day==1 or day==2 or day==3 or day==4 or day==5) and month==5:
+  print("A weekday in May")
+else:
+  print("No match")
