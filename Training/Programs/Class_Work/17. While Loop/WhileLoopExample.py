@@ -5,6 +5,7 @@ while i < 6: #ending
     print(i) #body
     i += 1 #jumping
 
+
 #The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.
 i = 1
 while i < 6:
@@ -12,6 +13,7 @@ while i < 6:
     if i == 3:
         break
     i += 1
+
 
 i = 0
 while i < 6: #0-5

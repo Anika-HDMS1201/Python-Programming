@@ -20,6 +20,7 @@ for x in fruits:
   print(x)
   if x == "banana":
     break #break statement quit the workflow of loop
+  
 
 #fetching values seperately of fruits variable and stopping loop if found banana else printing continue
 fruits = ["apple", "banana", "cherry"]
