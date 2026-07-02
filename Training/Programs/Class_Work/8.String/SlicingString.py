@@ -15,6 +15,11 @@ print(b[:])#if the starting position is blank then it's 0 last position is blank
 
 b = "Hello, World!"
 print(b[-5:-2]) # starting index starts from -5+1=-4 to -2 
+"""
+negative indexing
+x= "Hello";
+x[-3:-1] -> lo {-3 means -3 + 1 = starts -2 index}
+"""
 
 
 # Two rules

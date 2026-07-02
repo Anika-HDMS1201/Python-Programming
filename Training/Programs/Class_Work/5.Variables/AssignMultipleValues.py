@@ -20,7 +20,7 @@ print(z)
 
 print("-------------------------------")
 
-values = ["Anika Jana","MBA","23","Susu lover"]
+values = ["Anika Jana","MBA","23","Sursuri lover"]
 print(values)
 name,degree,age,hobby = values
 print(name)

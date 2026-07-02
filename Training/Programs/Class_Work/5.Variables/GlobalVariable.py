@@ -1,7 +1,7 @@
 x = "awesome" #global variable
 
 def NoobriFunction(): # defining a function
-  print("Python is ",x) #statement of that function
+    print("Python is ",x) #statement of that function
 
 NoobriFunction()
 
@@ -11,8 +11,8 @@ NoobriFunction()
 x = "noobri"
 
 def myfunc():
-  x = "fantastic"
-  print("Python is " + x)
+    x = "fantastic"
+    print("Python is " + x)
 
 myfunc()
 
