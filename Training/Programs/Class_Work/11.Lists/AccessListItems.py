@@ -11,7 +11,8 @@ thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[:4])
 print(thislist[2:])
 print(thislist[-4:-1]) #-3 to -1
-
+x = thislist[:] # it will copy thislist all elements into x
+x = thislist # it will copy thislist all elements and address into x
 thislist = ["apple", "banana", "cherry"]
 print("apple" in thislist) #it will return True as a value
 if "Apple" in thislist:  #it will return True as a condtion
