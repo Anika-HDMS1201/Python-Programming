@@ -1,0 +1,38 @@
+Q1.
+1. a)int
+2. b).append()
+3. a)3.75
+4. d)Set
+5. b)x if condition else y 
+6. c)Throws an IndexError
+7. c)| 
+8. b)dict.get("key", "default")
+9. b)continue
+10. b)If two variables point to the exact same object in memory. 
+11. a).extend() 
+12. a)True
+13. a).slice() 
+14. b)Removes leading and trailing whitespaces   from the string.
+15. b)else: 
+
+Q2.
+1.
+2.len
+3.**
+4.
+5.False
+6.same
+7..keys()
+8.pass
+9.4 (yli)
+10.x+=5
+
+Q3.
+1.True
+2.True
+3.False
+4.True
+5.False
+
+
+
