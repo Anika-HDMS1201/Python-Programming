@@ -73,7 +73,8 @@ def get_greeting():
     return "Hello from a function"
 
 message = get_greeting()
-print(message)
+print(message) #with variable call
+print(get_greeting()) #withought variable call
 
 
 
