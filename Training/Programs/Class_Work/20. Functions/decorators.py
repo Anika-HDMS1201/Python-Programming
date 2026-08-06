@@ -112,3 +112,65 @@ def myfunction():
   return "Have a great day!"
 
 print(myfunction.__name__)
+
+def changeName(c):
+  def changeName(y): # this is responsible to get the second value
+    def changeName(x): #x() is reffered as change() return value means "Nirobi"
+      def xx(): 
+        z = x().upper() #modifying the string
+        return z
+      def xxx():
+        zzzzz = x().lower()
+        return zzzzz
+      def yyyy():
+        return "Abnormal input"
+      def noobri():
+        return len(c)
+      if y==1:
+        return xx
+      elif y == 2:
+        return xxx
+      elif y == 3:
+        return noobri
+      else :
+        return yyyy
+    return changeName
+  return changeName
+
+
+# @changeName # decorator present -> 2
+# def change():
+#   return "Nirobi" #check decorators -> 1
+# print(change())
+
+
+# @changeName(20) # decorator present -> 2
+# def change():
+#   return "Nirobi" #check decorators -> 1
+# print(change())
+
+
+@changeName("Apple")(3) # decorator present -> 2
+def change():
+  return "Nirobi" #check decorators -> 1
+print(change())
+
+
+
+def tryNoob(value1):
+    def firstWork(*x):
+        result = "".join(value1(*x)) 
+        
+        if x[0] == 1:
+          return result.upper()
+        elif x[1] == 2:
+          return result.lower()
+        else:
+          return "Abnormal"
+    return firstWork
+
+@tryNoob
+def noob(decide, name):
+    return str(decide), " ", name
+
+print(noob(1, "Hello"))  # Outputs: 1 HELLO

@@ -9,9 +9,12 @@ Why Use Lambda Functions?
 The power of lambda is better shown when you use them as an anonymous function inside another function.
 """
 
-# x = lambda a : a + 10
-# print(x(5))
-
+x = lambda a : a + 10
+print(x(5))
+#defined in function
+def x(x):
+    return x+10
+print (x(5))
 
 
 
@@ -56,6 +59,20 @@ print(doubled)
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 odd_numbers = list(filter(lambda x: x % 2 != 0, numbers))
 print(odd_numbers)
+
+#defined in function
+def is_odd(x):
+    return x % 2 != 0
+def get_odd_numbers(numbers_list): # getting value from numbers storing to numbers_list
+    # x = filter(is_odd, numbers_list)
+    x = filter(lambda y: y%2!=0 ,numbers_list)
+    return list(x)
+
+numbers_list = [1, 2, 3, 4, 5, 6, 7, 8]
+print(get_odd_numbers(numbers_list)) #changing it to numbers_list
+
+
+
 
 #The sorted() function can use a lambda as a key for custom sorting:
 students = [("Emil", 25,["class",12]), ("Tobias", 22,["class",2]), ("Linus", 28,["class",8])]
