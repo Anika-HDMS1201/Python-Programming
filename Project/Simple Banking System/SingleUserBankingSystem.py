@@ -31,9 +31,12 @@ def accountCreation():
     print("||Python Banking Account Creation||")
     print("====================================")
     CustomerName = input("Enter your name : ")
-    AccountNo = random.random(10000000000, 99999999999)
+    AccountNo = random.randint(10000000000, 99999999999)
+    print(f"Account Number : {AccountNo}")
     location = input("Enter your location : ")
-    ifsc = str(location + str(AccountNo)) #auto generated value
+    # ifsc = str(location + str(AccountNo)) #auto generated value
+    ifsc = location[:4] + str(random.randint(1000, 9999)) #auto generated value
+    print(f"IFSC Code : {ifsc}")
     customer["Name"] = CustomerName
     customer["AccountNo"] = AccountNo
     customer["Location"] = location
@@ -42,6 +45,7 @@ def accountCreation():
     x = float(input("Enter Minimum Deposit amount for account creation (1000) : "))
     if x >= 1000:
         customer["Balance"] = x
+        print(f"========== {x} Deposited Successfully ==========")
     elif x<=0:
         print("Entered amount cannot be 0 or negative")
     else:
@@ -91,6 +95,7 @@ Enter your choice :
 1/. Show Customer Details
 2/. Deposit Money
 3/. Withdraw 
+4/. Log Out
  -> """
     choose = int(input(x))
     if choose == 1 :
@@ -99,9 +104,12 @@ Enter your choice :
         deposit()
     elif choose == 3:
         withdraw()
+    elif choose == 4:
+            print("Logging Out ...")
+            startUp()
     elif choose == 0:
+        print("Thank you for visiting our banking system")
         return
-    
     else :
         print("Entered wrong option ",choose)
     choice()   
