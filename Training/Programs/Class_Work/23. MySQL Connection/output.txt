@@ -1,0 +1,78 @@
+mysql> show databases;
++----------------------------+
+| Database                   |
++----------------------------+
+| anikadb                    |
+| appointment                |
+| bank                       |
+| banking_using_springboot   |
+| chakra                     |
+| chittajit                  |
+| chittajit_db               |
+| cmc                        |
+| customer                   |
+| demoprj                    |
+| designations               |
+| dip                        |
+| doctor                     |
+| doctors_appointment        |
+| employees                  |
+| example                    |
+| hotel_master_total_website |
+| information_schema         |
+| mysql                      |
+| performance_schema         |
+| portfolio                  |
+| py_db                      |
+| querysolve_db              |
+| sakila                     |
+| spring_boot_jpa            |
+| sts                        |
+| sys                        |
+| user_login                 |
+| world                      |
++----------------------------+
+29 rows in set (0.00 sec)
+
+mysql> use anikadb;
+Database changed
+mysql> show tables;
++-------------------+
+| Tables_in_anikadb |
++-------------------+
+| friends           |
+| phone_diary       |
++-------------------+
+2 rows in set (0.00 sec)
+
+mysql> select * from friends;
++-----------------------+--------------+-----------------+
+| name                  | phone_number | address         |
++-----------------------+--------------+-----------------+
+| chittajit chakraborty |   7059663127 | 24/2/12 PK road |
++-----------------------+--------------+-----------------+
+1 row in set (0.00 sec)
+
+mysql> insert into friends values('Chakra Sayan Roy', 8910344048, 'Randi Khana');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from friends;
++-----------------------+--------------+-----------------+
+| name                  | phone_number | address         |
++-----------------------+--------------+-----------------+
+| chittajit chakraborty |   7059663127 | 24/2/12 PK road |
+| Chakra Sayan Roy      |   8910344048 | Randi Khana     |
++-----------------------+--------------+-----------------+
+2 rows in set (0.00 sec)
+
+mysql> select * from friends;
++-----------------------+--------------+-----------------+
+| name                  | phone_number | address         |
++-----------------------+--------------+-----------------+
+| chittajit chakraborty |   7059663127 | 24/2/12 PK road |
+| Chakra Sayan Roy      |   8910344048 | Randi Khana     |
+| noob                  |     34523525 | noobra para     |
++-----------------------+--------------+-----------------+
+3 rows in set (0.00 sec)
+
+mysql> 
