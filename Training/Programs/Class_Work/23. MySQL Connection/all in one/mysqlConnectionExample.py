@@ -3,10 +3,10 @@ import mysql.connector as msql
 try:
     #establishing connection with python
     mydb = msql.connect(
-            host="localhost",
-            user="root",
-            password="root",
-            database="anikadb"
+            host="localhost", #host name
+            user="root", #user name
+            password="root", #password
+            database="anikadb" #database name
         ) #this function is use to connect this program with mysqlDB
     #creating cursor for execution of any mysql querry
     mycursor = mydb.cursor() #next we will create a cursor which will be use to execute some querry
@@ -17,6 +17,8 @@ try:
         print(i)
 
     sql = "INSERT INTO friends(name, phone_number, address) VALUES (%s, %s, %s)"
+    # sql = "INSERT INTO friends VALUES (%s, %s, %s)"
+
 
     name = input("Enter your name : ")
     phone = int(input("Enter your phone : "))
