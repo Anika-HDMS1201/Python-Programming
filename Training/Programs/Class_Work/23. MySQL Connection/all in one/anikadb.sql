@@ -23,6 +23,7 @@ INSERT INTO friends(name, phone_number, address) VALUES ('chittajit chakraborty'
 
 insert into anikadb.friends values('Anika Jana', 9477514446, 'Howrah Shibpur');
 select * from anikadb.friends;
+select * from anikadb.friends where name = 'Chittajit Chakraborty';
 DELETE FROM anikadb.friends WHERE phone_number = 7059663127;
 DELETE FROM anikadb.friends WHERE name = 'Anika Jana';
 

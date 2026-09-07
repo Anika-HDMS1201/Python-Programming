@@ -30,6 +30,22 @@ try:
     print(mycursor.rowcount, "record inserted.")
 
 
+    # Mulltiple time inputs.
+    sql = "INSERT INTO friends(name, phone_number, address) VALUES (%s, %s, %s)"
+    x = int(input("How many data do you want to put together?"))
+    if x >= 1 :
+        for i in range(x):
+            name = input(f"{i+1}. Enter your name : ")
+            phone = int(input(f"{i+1}. Enter your phone : "))
+            address = input(f"{i+1}. Enter your address : ")
+            val = (name,phone,address)
+            mycursor.execute(sql, val)
+        mydb.commit()
+        print(mycursor.rowcount, "record inserted.")
+    else:
+        print("Sorry wrong value choosen.")
+        
+
 
 except msql.errors.ProgrammingError as e:
     print("Your Table Name is not proper")
