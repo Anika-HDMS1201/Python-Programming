@@ -1,6 +1,6 @@
 create database anikaDB;
 use anikaDB;
-use bank; //its my DB {use // for single line comment}
+use bank; #its my DB {use # for single line comment}
 
 create table anikaDB.friends(
 				name varchar(30), 
