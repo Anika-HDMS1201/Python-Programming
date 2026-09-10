@@ -57,7 +57,7 @@ async def main():
         await page.goto(url)
         
         print("Waiting 15 seconds... Check the window and complete any verification grids manually!")
-        await page.wait_for_timeout(15000)
+        await page.wait_for_timeout(15000)# 1000 ms is = 1 seconds
         
         try:
             await page.wait_for_selector("[data-component-type='s-search-result']", timeout=10000)
