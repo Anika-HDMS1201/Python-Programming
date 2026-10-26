@@ -1,0 +1,9 @@
+
+ | Product name : Pen |
+--------------------------------------
+Gross Sales : 1000.0
+Net Sales : 996.4
+Total Cost : 162.0
+The company makes the Profit of amount 834.4
+--------------------------------------
+            

@@ -100,15 +100,94 @@ def calculate_finances():
         PL = "Loss"
     else :
         PL = "Break Even Point"
-    output = f"""
- | Product name : {ProductName} |
---------------------------------------
-Gross Sales : {grossSales}
-Net Sales : {NetSales}
-Total Cost : {TotalCost}
-The company makes the {PL} of amount {Profit_Loss}
---------------------------------------
-            """
-    print(output)
+    output = {
+        "Product name" : ProductName,
+        "Gross Sales" : grossSales,
+        "Net Sales" : NetSales,
+        "Total Cost" : TotalCost,
+        "PL":PL,
+        "Profit_Loss":Profit_Loss
+    }
+    return output
+#     output = f"""
+#  | Product name : {ProductName} |
+# --------------------------------------
+# Gross Sales : {grossSales}
+# Net Sales : {NetSales}
+# Total Cost : {TotalCost}
+# The company makes the {PL} of amount {Profit_Loss}
+# --------------------------------------
+#             """
 
-calculate_finances()
+output = calculate_finances()
+print(output)
+print(
+    f"""
+ | Product name : {output["Product name"]} | 
+----------------------------------------------
+Gross Sales : {output["Gross Sales"]}
+Net Sales : {output["Net Sales"]}
+Total Cost : {output["Total Cost"]}
+The company makes the {output["PL"]} of amount {output["Profit_Loss"]}
+"""
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def newFile(text):
+    output = calculate_finances()
+    path = "E:\\Programming Codes\\Anika-Python\\Python-Programming\\My Own Pratice\\Practice for Quad 1\\output.txt"
+    with open(path,"w") as f:
+        f.write(f"{output} \n {text}")
+        print("File created succfully path = ' ",path,"' ")
+    # f.close()
+
+def readFile():
+    try:
+        path = "E:\\Programming Codes\\Anika-Python\\Python-Programming\\My Own Pratice\\Practice for Quad 1\\output.txt"
+        file = open(path,"r")
+        file.read()
+    except Exception as e:
+        print(e)
+    return str(file)
+
+def mergeFiles():
+    oldText = readFile()
+    print("Old text recovered...")
+    newText = newFile(oldText)
+    print("New text received...")
+    print("Merged result...")
+
+# try:
+#     mergeFiles()
+# except Exception as e:
+#     print(e)
+
+
+
+
+
+
+
+
+
