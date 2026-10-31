@@ -2,6 +2,7 @@
 # 1. IMPORTS — Check VS Code here!
 # If any line below has a yellow squiggly underline, that package is 
 # either not installed or VS Code is pointing to the wrong Python.
+# python -m pip install numpy pandas openpyxl scipy statsmodels matplotlib seaborn plotly scikit-learn xgboost lightgbm mysql-connector-python ipykernel
 # =====================================================================
 import numpy as np
 import pandas as pd
