@@ -81,6 +81,7 @@ Write a Python program that does the following:
 3. Calculates and displays a formatted summary of Gross Sales, Net Sales, Total Cost, and whether the business made a Profit or a Loss (along with the exact amount).
 """
 
+<<<<<<< Updated upstream
 def calculate_finances():
     ProductName = input("Enter the Product Name : ")
     QuantitySold = int(input("Enter how many Quantity Sold : "))
@@ -109,6 +110,27 @@ def calculate_finances():
         "Profit_Loss":Profit_Loss
     }
     return output
+=======
+# def calculate_finances():
+#     ProductName = input("Enter the Product Name : ")
+#     QuantitySold = int(input("Enter how many Quantity Sold : "))
+#     SellingPricePU = float(input("Enter your selling price per unit : "))
+#     SalesReturn = int(input("Enter how many units has returned : "))
+#     COGS = float(input("Enter your cost of good sold (Total): "))
+#     COGS_PU = COGS/float(QuantitySold)
+#     OE = float(input("Enter your operating expences : "))
+#     grossSales = QuantitySold * SellingPricePU
+#     NetSales = grossSales - SalesReturn*COGS_PU
+#     TotalCost = COGS + OE
+#     Profit_Loss = NetSales - TotalCost
+#     PL = ""
+#     if Profit_Loss > 0 :
+#         PL = "Profit"
+#     elif Profit_Loss <0:
+#         PL = "Loss"
+#     else :
+#         PL = "Break Even Point"
+>>>>>>> Stashed changes
 #     output = f"""
 #  | Product name : {ProductName} |
 # --------------------------------------
@@ -118,6 +140,7 @@ def calculate_finances():
 # The company makes the {PL} of amount {Profit_Loss}
 # --------------------------------------
 #             """
+<<<<<<< Updated upstream
 
 output = calculate_finances()
 print(output)
@@ -190,4 +213,61 @@ def mergeFiles():
 
 
 
+=======
+#     print(output)
+
+# calculate_finances()
+
+# def calculate_finances():
+#     ProductName = input("Enter the Product Name : ")
+#     QuantitySold = int(input("Enter how many Quantity Sold : "))
+#     SellingPricePU = float(input("Enter your selling price per unit : "))
+#     SalesReturn = int(input("Enter how many units has returned : "))
+#     COGS = float(input("Enter your cost of good sold (Total): "))
+#     COGS_PU = COGS/float(QuantitySold)
+#     OE = float(input("Enter your operating expences : "))
+#     grossSales = QuantitySold * SellingPricePU
+#     NetSales = grossSales - SalesReturn*COGS_PU
+#     TotalCost = COGS + OE
+#     Profit_Loss = NetSales - TotalCost
+#     PL = ""
+#     if Profit_Loss > 0 :
+#         PL = "Profit"
+#     elif Profit_Loss <0:
+#         PL = "Loss"
+#     else :
+#         PL = "Break Even Point"
+#     output = { 
+#     "Product name" : {ProductName},
+# "Gross Sales" : {grossSales},
+# "Net Sales" : {NetSales},
+# "Total Cost" : {TotalCost},
+# "Profit loss" : {Profit_Loss}
+#     }
+#     return output
+    
+# print(calculate_finances())
+
+
+num=int(input("Enter Your Number:"))
+fact=1
+if num<=0:
+    print("Proceed")
+else:
+    for i in range(2,num+1):
+        fact*=i
+    print(fact)
+    print("Total digits: ",len(str(fact)))
+print("Done")
+
+
+Base=int(input("Enter a number:"))
+Power=int(input("Enter a number:"))
+tharki=1
+for i in range(Power):
+    tharki*=Base
+print(f"{Base}^{Power} = {tharki}")
+
+        
+>>>>>>> Stashed changes
 
